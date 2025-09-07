@@ -23,19 +23,19 @@ jobs:
         uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: ${{ github.repository_owner }}
-          # Example custom colors: change these to your preference
-          color_pacman: "#FFEB3B"                # bright yellow Pac-Man
-          color_dots: "#FFCC80,#FFB74D,#FF9800,#F57C00" # orange shades for dots
-          color_ghosts: "#E91E63,#9C27B0,#2196F3,#4CAF50" # pink, purple, blue, green ghosts
-          # Add more inputs if available for animation speed, background, etc.
+          color_pacman: "#FFEB3B"
+          color_dots: "#F57C00"
+          color_ghosts: "#1976D2"
 
       - name: Prepare output folder
         run: |
           mkdir -p dist
-          mv pacman-contribution-graph.svg dist/
-          # If dark theme SVG generated, move it too (adjust name as needed)
-          # mv pacman-contribution-graph-dark.svg dist/
-
+         if [ -f pacman-contribution-graph.svg ]; then
+            mv pacman-contribution-graph.svg dist/
+          fi
+          if [ -f pacman-contribution-graph-dark.svg ]; then
+            mv pacman-contribution-graph-dark.svg dist/
+          fi
       - name: List files for debugging
         run: ls -R dist
 
