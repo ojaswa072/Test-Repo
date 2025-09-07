@@ -51,3 +51,4 @@
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
   </a>
 </p>
+![Pac-Man Contributions](https://raw.githubusercontent.com/ojaswa072/ojaswa072/output/pacman-contribution-graph.svg)
