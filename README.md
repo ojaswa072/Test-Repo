@@ -1,4 +1,4 @@
-<h1 align="center">Hey! I’m Ojaswa — Crafting My Way Through Java 🚀 from India</h1>
+<h1 align="center">🚀 Hello World, I’m Ojaswa ! </h1>
 <h3 align="center">Java Developer | Cloud Computing Enthusiast | India</h3>
 
 ---
@@ -51,9 +51,3 @@
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
   </a>
 </p>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ojaswa072/ojaswa072/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ojaswa072/ojaswa072/output/pacman-contribution-graph.svg">
-  <img alt="Pac-Man contribution graph" src="https://raw.githubusercontent.com/ojaswa072/ojaswa072/output/pacman-contribution-graph.svg">
-</picture>
-
